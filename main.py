@@ -4,6 +4,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix
 from sklearn.cluster import KMeans, DBSCAN
 from sklearn.decomposition import PCA
+from mpl_toolkits.mplot3d import Axes3D
+
 from graph import *
 from rdf2vec import RDF2VecTransformer
 

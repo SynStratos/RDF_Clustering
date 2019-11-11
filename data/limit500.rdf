@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns3="http://bio2rdf.org/drugbank_vocabulary:" >
+  <rdf:Description rdf:about="http://bio2rdf.org/bindingdb:50102442">
+    <rdf:type rdf:resource="http://bio2rdf.org/bindingdb_vocabulary:Resource" />
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bindingdb:50102442</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/bindingdb:50271301">
+    <rdf:type rdf:resource="http://bio2rdf.org/bindingdb_vocabulary:Resource" />
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bindingdb:50271301</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/bindingdb:7953">
+    <rdf:type rdf:resource="http://bio2rdf.org/bindingdb_vocabulary:Resource" />
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bindingdb:7953</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/chemspider:1022">
+    <rdf:type rdf:resource="http://bio2rdf.org/chemspider_vocabulary:Resource" />
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemspider:1022</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/chemspider:31983">
+    <rdf:type rdf:resource="http://bio2rdf.org/chemspider_vocabulary:Resource" />
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemspider:31983</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/chemspider:4575342">
+    <rdf:type rdf:resource="http://bio2rdf.org/chemspider_vocabulary:Resource" />
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemspider:4575342</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/chemspider:6038">
+    <rdf:type rdf:resource="http://bio2rdf.org/chemspider_vocabulary:Resource" />
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemspider:6038</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/chemspider:82572">
+    <rdf:type rdf:resource="http://bio2rdf.org/chemspider_vocabulary:Resource" />
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemspider:82572</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00091">
+    <ns3:absorption rdf:resource="http://bio2rdf.org/drugbank_resource:b8238b8599e6fdc40599cf773d5fb991" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-10" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-11" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-12" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-13" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-14" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-15" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-16" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-17" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-18" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-19" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-20" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-21" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-22" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-23" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-24" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-25" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-26" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-27" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-28" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-3" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-4" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-5" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-6" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-7" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-8" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-9" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00092">
+    <ns3:absorption rdf:resource="http://bio2rdf.org/drugbank_resource:55842b12e140e13ee25b3a59430d097e" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00093">
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-9" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-26" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-27" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-3" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-4" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-5" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-6" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-7" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-8" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-19" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-2" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-20" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-21" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-22" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-23" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-24" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-25" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-11" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-12" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-13" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-14" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-15" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-16" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-17" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-18" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-10" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00097">
+    <ns3:absorption rdf:resource="http://bio2rdf.org/drugbank_resource:abc4b12d5153eba9af71c2c651bd4ff1" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00099">
+    <ns3:absorption rdf:resource="http://bio2rdf.org/drugbank_resource:228bf0dff0e17c650e98e541c5291e94" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00102">
+    <ns3:absorption rdf:resource="http://bio2rdf.org/drugbank_resource:3669e274097fc69149d3dbad3ba6b01c" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00106">
+    <ns3:x-bindingdb rdf:resource="http://bio2rdf.org/bindingdb:50102442" />
+    <ns3:absorption rdf:resource="http://bio2rdf.org/drugbank_resource:762a7c535540c35c3ec0a9932635da58" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00107">
+    <ns3:absorption rdf:resource="http://bio2rdf.org/drugbank_resource:8683be48baa0e7d62758aed2d9ccf431" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00109">
+    <ns3:x-bindingdb rdf:resource="http://bio2rdf.org/bindingdb:50271301" />
+    <ns3:absorption rdf:resource="http://bio2rdf.org/drugbank_resource:55f06b8fc86fce71f0db4c1832cfa819" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00114">
+    <ns3:x-chemspider rdf:resource="http://bio2rdf.org/chemspider:1022" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-10" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-19" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-20" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-21" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-22" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-15" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-16" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-17" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-18" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-27" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-28" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-29" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-4" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-23" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-24" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-25" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-26" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-9" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-5" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-6" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-7" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-8" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-11" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-12" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-13" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-14" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00115">
+    <ns3:x-chemspider rdf:resource="http://bio2rdf.org/chemspider:4575342" />
+    <ns3:absorption rdf:resource="http://bio2rdf.org/drugbank_resource:450004b6cb1a30c3690aa11d2cd941a2" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-10" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-11" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-12" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-13" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-14" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-15" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-16" />
+    <ns3:calculated-properties rdf:resource="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-17" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00116">
+    <ns3:x-chemspider rdf:resource="http://bio2rdf.org/chemspider:82572" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00117">
+    <ns3:x-bindingdb rdf:resource="http://bio2rdf.org/bindingdb:7953" />
+    <ns3:x-chemspider rdf:resource="http://bio2rdf.org/chemspider:6038" />
+    <ns3:absorption rdf:resource="http://bio2rdf.org/drugbank_resource:069ab916580192548ff172f164a424bf" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank:DB00118">
+    <ns3:x-chemspider rdf:resource="http://bio2rdf.org/chemspider:31983" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:069ab916580192548ff172f164a424bf">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Absorption" />
+    <rdfs:label xml:lang="en">absorption for drugbank:DB00117 [drugbank_resource:069ab916580192548ff172f164a424bf]</rdfs:label>
+    <dcterms:title xml:lang="en">absorption for drugbank:DB00117</dcterms:title>
+    <dcterms:description xml:lang="en">Absorbed from the small intestine via an active transport mechanism requiring the presence of sodium.</dcterms:description>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:069ab916580192548ff172f164a424bf</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:228bf0dff0e17c650e98e541c5291e94">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Absorption" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">absorption for drugbank:DB00099 [drugbank_resource:228bf0dff0e17c650e98e541c5291e94]</rdfs:label>
+    <dcterms:title xml:lang="en">absorption for drugbank:DB00099</dcterms:title>
+    <dcterms:description xml:lang="en">Absorption and clearance of Neupogen follows first-order pharmacokinetic modeling without apparent concentration dependence. When 3.45 mcg/kg and 11.5 mcg/kg of Neupogen is subcutaneously administered, the maximum serum concentration is 4 and 49 ng/mL‚ respectively‚ within 2 to 8 hours. Neupogen does not accumulate. It is estimated that when filgrastim is subcutaneously administered, the absolute bioavailability is approximately 62% and 71% for 375 mcg and 750 mcg doses respectively. When 5 mcg/kg tbo-filgrastim is subcutaneously administered, the absolute bioavailability is 33%. It takes 4-6 hours for tho-filgrastim to reach maximum concentration. Like Neupogen, accumulation was not observed.</dcterms:description>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:228bf0dff0e17c650e98e541c5291e94</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:3669e274097fc69149d3dbad3ba6b01c">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Absorption" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">absorption for drugbank:DB00102 [drugbank_resource:3669e274097fc69149d3dbad3ba6b01c]</rdfs:label>
+    <dcterms:title xml:lang="en">absorption for drugbank:DB00102</dcterms:title>
+    <dcterms:description xml:lang="en">very little systemic absorption. 15% of patients experienced complete healing within 8 weeks, while for 25% of patients, it was at 10 weeks.</dcterms:description>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:3669e274097fc69149d3dbad3ba6b01c</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:450004b6cb1a30c3690aa11d2cd941a2">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Absorption" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">absorption for drugbank:DB00115 [drugbank_resource:450004b6cb1a30c3690aa11d2cd941a2]</rdfs:label>
+    <dcterms:title xml:lang="en">absorption for drugbank:DB00115</dcterms:title>
+    <dcterms:description xml:lang="en">Readily absorbed in the lower half of the ileum.</dcterms:description>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:450004b6cb1a30c3690aa11d2cd941a2</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:55842b12e140e13ee25b3a59430d097e">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Absorption" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">absorption for drugbank:DB00092 [drugbank_resource:55842b12e140e13ee25b3a59430d097e]</rdfs:label>
+    <dcterms:title xml:lang="en">absorption for drugbank:DB00092</dcterms:title>
+    <dcterms:description xml:lang="en">Bioavailability after IM administration is 63%.</dcterms:description>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:55842b12e140e13ee25b3a59430d097e</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:55f06b8fc86fce71f0db4c1832cfa819">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Absorption" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">absorption for drugbank:DB00109 [drugbank_resource:55f06b8fc86fce71f0db4c1832cfa819]</rdfs:label>
+    <dcterms:title xml:lang="en">absorption for drugbank:DB00109</dcterms:title>
+    <dcterms:description xml:lang="en">After a 90 mg single subcutaneous injection of Enfuvirtide into the abdomen in 12 HIV-1 infected subjects, the mean peak concentration is 4.59+/-1.5 ug/ml and the median time to peak concentration was 8 hours (ranged from 3 to12 hours).</dcterms:description>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:55f06b8fc86fce71f0db4c1832cfa819</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:762a7c535540c35c3ec0a9932635da58">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Absorption" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">absorption for drugbank:DB00106 [drugbank_resource:762a7c535540c35c3ec0a9932635da58]</rdfs:label>
+    <dcterms:title xml:lang="en">absorption for drugbank:DB00106</dcterms:title>
+    <dcterms:description xml:lang="en">Following IM administration of 100 mg, abarelix is absorbed slowly with a mean peak concentration of 43.4 ng/mL observed approximately 3 days after the injection.</dcterms:description>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:762a7c535540c35c3ec0a9932635da58</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:8683be48baa0e7d62758aed2d9ccf431">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Absorption" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">absorption for drugbank:DB00107 [drugbank_resource:8683be48baa0e7d62758aed2d9ccf431]</rdfs:label>
+    <dcterms:title xml:lang="en">absorption for drugbank:DB00107</dcterms:title>
+    <dcterms:description xml:lang="en">Uterine response after IV administration is immediate and subsides after 1 hour. Uterine contractions occur 3-5mins after IM administration and decreases within 2-3 hours. When 100-200milliunits is administered IV, contractions of the myoepithelial tissue surrounding the alveoli of the breasts occur within minutes and last for about 20 mins.</dcterms:description>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:8683be48baa0e7d62758aed2d9ccf431</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:abc4b12d5153eba9af71c2c651bd4ff1">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Absorption" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">absorption for drugbank:DB00097 [drugbank_resource:abc4b12d5153eba9af71c2c651bd4ff1]</rdfs:label>
+    <dcterms:title xml:lang="en">absorption for drugbank:DB00097</dcterms:title>
+    <dcterms:description xml:lang="en">The mean absolute bioavailability following a single subcutaneous injection to healthy female volunteers is about 40%.</dcterms:description>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:abc4b12d5153eba9af71c2c651bd4ff1</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:b8238b8599e6fdc40599cf773d5fb991">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Absorption" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">absorption for drugbank:DB00091 [drugbank_resource:b8238b8599e6fdc40599cf773d5fb991]</rdfs:label>
+    <dcterms:title xml:lang="en">absorption for drugbank:DB00091</dcterms:title>
+    <dcterms:description xml:lang="en">The absorption of cyclosporine from the gastrointestinal tract is incomplete and variable. The extent of absorption is dependent on the individual patient, the patient population, and the formulation. The absolute bioavailability of cyclosproine administered as Sandimmune® is dependent on the patient population, estimated to be less than 10% in liver transplant patients and as great as 89% in some renal transplant patients. Compared to an intravenous infusion, the absolute bioavailability of the oral solution is approximately 30% based upon the results in 2 patients. The cyclosporine capsules and oral solution are bioequivalent. The time of peak blood concentrations (Tmax) following oral administration of cyclosporine [modified] ranged from 1.5 - 2.0 hours.</dcterms:description>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:b8238b8599e6fdc40599cf773d5fb991</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-10">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Monoisotopic-Weight" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Monoisotopic Weight: 1201.841368071 from ChemAxon [drugbank_resource:calculated-properties-DB00091-10]</rdfs:label>
+    <dcterms:title xml:lang="en">Monoisotopic Weight: 1201.841368071 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-10</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-11">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:SMILES" />
+    <rdfs:label xml:lang="en">SMILES: CCC1NC(=O)C(C(O)C(C)CC=CC)N(C)C(=O)C(C(C)C)N(C)C(=O)C(CC(C)C)N(C)C(=O)C(CC(C)C)N(C)C(=O)C(C)NC(=O)C(C)NC(=O)C(CC(C)C)N(C)C(=O)C(NC(=O)C(CC(C)C)N(C)C(=O)CN(C)C1=O)C(C)C from ChemAxon [drugbank_resource:calculated-properties-DB00091-11]</rdfs:label>
+    <dcterms:title xml:lang="en">SMILES: CCC1NC(=O)C(C(O)C(C)CC=CC)N(C)C(=O)C(C(C)C)N(C)C(=O)C(CC(C)C)N(C)C(=O)C(CC(C)C)N(C)C(=O)C(C)NC(=O)C(C)NC(=O)C(CC(C)C)N(C)C(=O)C(NC(=O)C(CC(C)C)N(C)C(=O)CN(C)C1=O)C(C)C from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-11</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-12">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Molecular-Formula" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Molecular Formula: C62H111N11O12 from ChemAxon [drugbank_resource:calculated-properties-DB00091-12]</rdfs:label>
+    <dcterms:title xml:lang="en">Molecular Formula: C62H111N11O12 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-12</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-13">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:InChI" />
+    <rdfs:label xml:lang="en">InChI: InChI=1/C62H111N11O12/c1-25-27-28-40(15)52(75)51-56(79)65-43(26-2)58(81)67(18)33-48(74)68(19)44(29-34(3)4)55(78)66-49(38(11)12)61(84)69(20)45(30-35(5)6)54(77)63-41(16)53(76)64-42(17)57(80)70(21)46(31-36(7)8)59(82)71(22)47(32-37(9)10)60(83)72(23)50(39(13)14)62(85)73(51)24/h25,27,34-47,49-52,75H,26,28-33H2,1-24H3,(H,63,77)(H,64,76)(H,65,79)(H,66,78)/b27-25+ from ChemAxon [drugbank_resource:calculated-properties-DB00091-13]</rdfs:label>
+    <dcterms:title xml:lang="en">InChI: InChI=1/C62H111N11O12/c1-25-27-28-40(15)52(75)51-56(79)65-43(26-2)58(81)67(18)33-48(74)68(19)44(29-34(3)4)55(78)66-49(38(11)12)61(84)69(20)45(30-35(5)6)54(77)63-41(16)53(76)64-42(17)57(80)70(21)46(31-36(7)8)59(82)71(22)47(32-37(9)10)60(83)72(23)50(39(13)14)62(85)73(51)24/h25,27,34-47,49-52,75H,26,28-33H2,1-24H3,(H,63,77)(H,64,76)(H,65,79)(H,66,78)/b27-25+ from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-13</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-14">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:InChIKey" />
+    <rdfs:label xml:lang="en">InChIKey: InChIKey=PMATZTZNYRCHOR-IMVLJIQENA-N from ChemAxon [drugbank_resource:calculated-properties-DB00091-14]</rdfs:label>
+    <dcterms:title xml:lang="en">InChIKey: InChIKey=PMATZTZNYRCHOR-IMVLJIQENA-N from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-14</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-15">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Polar-Surface-Area-(PSA)" />
+    <rdfs:label xml:lang="en">Polar Surface Area (PSA): 292.76 from ChemAxon [drugbank_resource:calculated-properties-DB00091-15]</rdfs:label>
+    <dcterms:title xml:lang="en">Polar Surface Area (PSA): 292.76 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-15</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-16">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Refractivity" />
+    <rdfs:label xml:lang="en">Refractivity: 329.23 from ChemAxon [drugbank_resource:calculated-properties-DB00091-16]</rdfs:label>
+    <dcterms:title xml:lang="en">Refractivity: 329.23 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-16</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-17">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Polarizability" />
+    <rdfs:label xml:lang="en">Polarizability: 131.92 from ChemAxon [drugbank_resource:calculated-properties-DB00091-17]</rdfs:label>
+    <dcterms:title xml:lang="en">Polarizability: 131.92 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-17</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-18">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Rotatable-Bond-Count" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Rotatable Bond Count: 15 from ChemAxon [drugbank_resource:calculated-properties-DB00091-18]</rdfs:label>
+    <dcterms:title xml:lang="en">Rotatable Bond Count: 15 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-18</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-19">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:H-Bond-Acceptor-Count" />
+    <rdfs:label xml:lang="en">H Bond Acceptor Count: 16 from ChemAxon [drugbank_resource:calculated-properties-DB00091-19]</rdfs:label>
+    <dcterms:title xml:lang="en">H Bond Acceptor Count: 16 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-19</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-20">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:H-Bond-Donor-Count" />
+    <rdfs:label xml:lang="en">H Bond Donor Count: 5 from ChemAxon [drugbank_resource:calculated-properties-DB00091-20]</rdfs:label>
+    <dcterms:title xml:lang="en">H Bond Donor Count: 5 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-20</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-21">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:PKa-(strongest-acidic)" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">pKa (strongest acidic): 3.69 from ChemAxon [drugbank_resource:calculated-properties-DB00091-21]</rdfs:label>
+    <dcterms:title xml:lang="en">pKa (strongest acidic): 3.69 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-21</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-22">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:PKa-(strongest-basic)" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">pKa (strongest basic): 1.94 from ChemAxon [drugbank_resource:calculated-properties-DB00091-22]</rdfs:label>
+    <dcterms:title xml:lang="en">pKa (strongest basic): 1.94 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-22</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-23">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Physiological-Charge" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Physiological Charge: 0 from ChemAxon [drugbank_resource:calculated-properties-DB00091-23]</rdfs:label>
+    <dcterms:title xml:lang="en">Physiological Charge: 0 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-23</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-24">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Number-of-Rings" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Number of Rings: 1 from ChemAxon [drugbank_resource:calculated-properties-DB00091-24]</rdfs:label>
+    <dcterms:title xml:lang="en">Number of Rings: 1 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-24</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-25">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Bioavailability" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Bioavailability: 0 from ChemAxon [drugbank_resource:calculated-properties-DB00091-25]</rdfs:label>
+    <dcterms:title xml:lang="en">Bioavailability: 0 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-25</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-26">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Rule-of-Five" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Rule of Five: 0 from ChemAxon [drugbank_resource:calculated-properties-DB00091-26]</rdfs:label>
+    <dcterms:title xml:lang="en">Rule of Five: 0 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-26</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-27">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Ghose-Filter" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Ghose Filter: 0 from ChemAxon [drugbank_resource:calculated-properties-DB00091-27]</rdfs:label>
+    <dcterms:title xml:lang="en">Ghose Filter: 0 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-27</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-28">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:MDDR-Like-Rule" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">MDDR-Like Rule: 0 from ChemAxon [drugbank_resource:calculated-properties-DB00091-28]</rdfs:label>
+    <dcterms:title xml:lang="en">MDDR-Like Rule: 0 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-28</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-3">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:LogP" />
+    <rdfs:label xml:lang="en">logP: 4.37 from ALOGPS [drugbank_resource:calculated-properties-DB00091-3]</rdfs:label>
+    <dcterms:title xml:lang="en">logP: 4.37 from ALOGPS</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-3</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-4">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:LogS" />
+    <rdfs:label xml:lang="en">logS: -5.3 from ALOGPS [drugbank_resource:calculated-properties-DB00091-4]</rdfs:label>
+    <dcterms:title xml:lang="en">logS: -5.3 from ALOGPS</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-4</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-5">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Water-Solubility" />
+    <rdfs:label xml:lang="en">Water Solubility: 5.81e-03 g/l from ALOGPS [drugbank_resource:calculated-properties-DB00091-5]</rdfs:label>
+    <dcterms:title xml:lang="en">Water Solubility: 5.81e-03 g/l from ALOGPS</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-5</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-6">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:LogP" />
+    <rdfs:label xml:lang="en">logP: 6.92 from ChemAxon [drugbank_resource:calculated-properties-DB00091-6]</rdfs:label>
+    <dcterms:title xml:lang="en">logP: 6.92 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-6</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-7">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:IUPAC-Name" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">IUPAC Name: 30-ethyl-14,17,23,32-tetrahydroxy-33-[(4E)-1-hydroxy-2-methylhex-4-en-1-yl]-1,4,7,10,12,15,19,25,28-nonamethyl-6,9,18,24-tetrakis(2-methylpropyl)-3,21-bis(propan-2-yl)-1,4,7,10,13,16,19,22,25,28,31-undecaazacyclotritriaconta-13,16,22,31-tetraene-2,5,8,11,20,26,29-heptone from ChemAxon [drugbank_resource:calculated-properties-DB00091-7]</rdfs:label>
+    <dcterms:title xml:lang="en">IUPAC Name: 30-ethyl-14,17,23,32-tetrahydroxy-33-[(4E)-1-hydroxy-2-methylhex-4-en-1-yl]-1,4,7,10,12,15,19,25,28-nonamethyl-6,9,18,24-tetrakis(2-methylpropyl)-3,21-bis(propan-2-yl)-1,4,7,10,13,16,19,22,25,28,31-undecaazacyclotritriaconta-13,16,22,31-tetraene-2,5,8,11,20,26,29-heptone from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-7</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-8">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Traditional-IUPAC-Name" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Traditional IUPAC Name: 30-ethyl-14,17,23,32-tetrahydroxy-33-[(4E)-1-hydroxy-2-methylhex-4-en-1-yl]-3,21-diisopropyl-1,4,7,10,12,15,19,25,28-nonamethyl-6,9,18,24-tetrakis(2-methylpropyl)-1,4,7,10,13,16,19,22,25,28,31-undecaazacyclotritriaconta-13,16,22,31-tetraene-2,5,8,11,20,26,29-heptone from ChemAxon [drugbank_resource:calculated-properties-DB00091-8]</rdfs:label>
+    <dcterms:title xml:lang="en">Traditional IUPAC Name: 30-ethyl-14,17,23,32-tetrahydroxy-33-[(4E)-1-hydroxy-2-methylhex-4-en-1-yl]-3,21-diisopropyl-1,4,7,10,12,15,19,25,28-nonamethyl-6,9,18,24-tetrakis(2-methylpropyl)-1,4,7,10,13,16,19,22,25,28,31-undecaazacyclotritriaconta-13,16,22,31-tetraene-2,5,8,11,20,26,29-heptone from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-8</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00091-9">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Molecular-Weight" />
+    <rdfs:label xml:lang="en">Molecular Weight: 1202.6112 from ChemAxon [drugbank_resource:calculated-properties-DB00091-9]</rdfs:label>
+    <dcterms:title xml:lang="en">Molecular Weight: 1202.6112 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00091-9</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-10">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:SMILES" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">SMILES: NCCCC[C@H](NC(=O)[C@@H]1CCCN1C(=O)[C@@H]1CSSC[C@H](N)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N1)C(=O)NCC(N)=O from ChemAxon [drugbank_resource:calculated-properties-DB00093-10]</rdfs:label>
+    <dcterms:title xml:lang="en">SMILES: NCCCC[C@H](NC(=O)[C@@H]1CCCN1C(=O)[C@@H]1CSSC[C@H](N)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N1)C(=O)NCC(N)=O from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-10</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-11">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Molecular-Formula" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Molecular Formula: C46H65N13O11S2 from ChemAxon [drugbank_resource:calculated-properties-DB00093-11]</rdfs:label>
+    <dcterms:title xml:lang="en">Molecular Formula: C46H65N13O11S2 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-11</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-12">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:InChI" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">InChI: InChI=1/C46H65N13O11S2/c47-18-8-7-14-29(40(64)52-23-38(51)62)54-45(69)35-15-9-19-59(35)46(70)34-25-72-71-24-28(48)39(63)55-31(20-26-10-3-1-4-11-26)43(67)56-32(21-27-12-5-2-6-13-27)42(66)53-30(16-17-36(49)60)41(65)57-33(22-37(50)61)44(68)58-34/h1-6,10-13,28-35H,7-9,14-25,47-48H2,(H2,49,60)(H2,50,61)(H2,51,62)(H,52,64)(H,53,66)(H,54,69)(H,55,63)(H,56,67)(H,57,65)(H,58,68)/t28-,29-,30-,31-,32-,33-,34-,35-/s2 from ChemAxon [drugbank_resource:calculated-properties-DB00093-12]</rdfs:label>
+    <dcterms:title xml:lang="en">InChI: InChI=1/C46H65N13O11S2/c47-18-8-7-14-29(40(64)52-23-38(51)62)54-45(69)35-15-9-19-59(35)46(70)34-25-72-71-24-28(48)39(63)55-31(20-26-10-3-1-4-11-26)43(67)56-32(21-27-12-5-2-6-13-27)42(66)53-30(16-17-36(49)60)41(65)57-33(22-37(50)61)44(68)58-34/h1-6,10-13,28-35H,7-9,14-25,47-48H2,(H2,49,60)(H2,50,61)(H2,51,62)(H,52,64)(H,53,66)(H,54,69)(H,55,63)(H,56,67)(H,57,65)(H,58,68)/t28-,29-,30-,31-,32-,33-,34-,35-/s2 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-12</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-13">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:InChIKey" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">InChIKey: InChIKey=SFKQVVDKFKYTNA-YVGXZPIDNA-N from ChemAxon [drugbank_resource:calculated-properties-DB00093-13]</rdfs:label>
+    <dcterms:title xml:lang="en">InChIKey: InChIKey=SFKQVVDKFKYTNA-YVGXZPIDNA-N from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-13</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-14">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Polar-Surface-Area-(PSA)" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Polar Surface Area (PSA): 405.32 from ChemAxon [drugbank_resource:calculated-properties-DB00093-14]</rdfs:label>
+    <dcterms:title xml:lang="en">Polar Surface Area (PSA): 405.32 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-14</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-15">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Refractivity" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Refractivity: 264.79 from ChemAxon [drugbank_resource:calculated-properties-DB00093-15]</rdfs:label>
+    <dcterms:title xml:lang="en">Refractivity: 264.79 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-15</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-16">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Polarizability" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Polarizability: 103.93 from ChemAxon [drugbank_resource:calculated-properties-DB00093-16]</rdfs:label>
+    <dcterms:title xml:lang="en">Polarizability: 103.93 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-16</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-17">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Rotatable-Bond-Count" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Rotatable Bond Count: 19 from ChemAxon [drugbank_resource:calculated-properties-DB00093-17]</rdfs:label>
+    <dcterms:title xml:lang="en">Rotatable Bond Count: 19 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-17</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-18">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:H-Bond-Acceptor-Count" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">H Bond Acceptor Count: 13 from ChemAxon [drugbank_resource:calculated-properties-DB00093-18]</rdfs:label>
+    <dcterms:title xml:lang="en">H Bond Acceptor Count: 13 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-18</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-19">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:H-Bond-Donor-Count" />
+    <rdfs:label xml:lang="en">H Bond Donor Count: 12 from ChemAxon [drugbank_resource:calculated-properties-DB00093-19]</rdfs:label>
+    <dcterms:title xml:lang="en">H Bond Donor Count: 12 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-19</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-2">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:LogP" />
+    <rdfs:label xml:lang="en">logP: -1.1 from ALOGPS [drugbank_resource:calculated-properties-DB00093-2]</rdfs:label>
+    <dcterms:title xml:lang="en">logP: -1.1 from ALOGPS</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-2</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-20">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:PKa-(strongest-acidic)" />
+    <rdfs:label xml:lang="en">pKa (strongest acidic): 11.39 from ChemAxon [drugbank_resource:calculated-properties-DB00093-20]</rdfs:label>
+    <dcterms:title xml:lang="en">pKa (strongest acidic): 11.39 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-20</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-21">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:PKa-(strongest-basic)" />
+    <rdfs:label xml:lang="en">pKa (strongest basic): 10.18 from ChemAxon [drugbank_resource:calculated-properties-DB00093-21]</rdfs:label>
+    <dcterms:title xml:lang="en">pKa (strongest basic): 10.18 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-21</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-22">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Physiological-Charge" />
+    <rdfs:label xml:lang="en">Physiological Charge: 2 from ChemAxon [drugbank_resource:calculated-properties-DB00093-22]</rdfs:label>
+    <dcterms:title xml:lang="en">Physiological Charge: 2 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-22</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-23">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Number-of-Rings" />
+    <rdfs:label xml:lang="en">Number of Rings: 4 from ChemAxon [drugbank_resource:calculated-properties-DB00093-23]</rdfs:label>
+    <dcterms:title xml:lang="en">Number of Rings: 4 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-23</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-24">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Bioavailability" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Bioavailability: 0 from ChemAxon [drugbank_resource:calculated-properties-DB00093-24]</rdfs:label>
+    <dcterms:title xml:lang="en">Bioavailability: 0 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-24</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-25">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Rule-of-Five" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Rule of Five: 0 from ChemAxon [drugbank_resource:calculated-properties-DB00093-25]</rdfs:label>
+    <dcterms:title xml:lang="en">Rule of Five: 0 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-25</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-26">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Ghose-Filter" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Ghose Filter: 0 from ChemAxon [drugbank_resource:calculated-properties-DB00093-26]</rdfs:label>
+    <dcterms:title xml:lang="en">Ghose Filter: 0 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-26</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-27">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:MDDR-Like-Rule" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">MDDR-Like Rule: 1 from ChemAxon [drugbank_resource:calculated-properties-DB00093-27]</rdfs:label>
+    <dcterms:title xml:lang="en">MDDR-Like Rule: 1 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-27</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-3">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:LogS" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">logS: -4.4 from ALOGPS [drugbank_resource:calculated-properties-DB00093-3]</rdfs:label>
+    <dcterms:title xml:lang="en">logS: -4.4 from ALOGPS</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-3</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-4">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Water-Solubility" />
+    <rdfs:label xml:lang="en">Water Solubility: 4.53e-02 g/l from ALOGPS [drugbank_resource:calculated-properties-DB00093-4]</rdfs:label>
+    <dcterms:title xml:lang="en">Water Solubility: 4.53e-02 g/l from ALOGPS</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-4</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-5">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:LogP" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">logP: -5.8 from ChemAxon [drugbank_resource:calculated-properties-DB00093-5]</rdfs:label>
+    <dcterms:title xml:lang="en">logP: -5.8 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-5</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-6">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:IUPAC-Name" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">IUPAC Name: (2S)-6-amino-2-{[(2S)-1-[(4R,7S,10S,13S,16S,19R)-19-amino-13,16-dibenzyl-10-(2-carbamoylethyl)-7-(carbamoylmethyl)-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentaazacycloicosane-4-carbonyl]pyrrolidin-2-yl]formamido}-N-(carbamoylmethyl)hexanamide from ChemAxon [drugbank_resource:calculated-properties-DB00093-6]</rdfs:label>
+    <dcterms:title xml:lang="en">IUPAC Name: (2S)-6-amino-2-{[(2S)-1-[(4R,7S,10S,13S,16S,19R)-19-amino-13,16-dibenzyl-10-(2-carbamoylethyl)-7-(carbamoylmethyl)-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentaazacycloicosane-4-carbonyl]pyrrolidin-2-yl]formamido}-N-(carbamoylmethyl)hexanamide from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-6</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-7">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Traditional-IUPAC-Name" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Traditional IUPAC Name: felypressin from ChemAxon [drugbank_resource:calculated-properties-DB00093-7]</rdfs:label>
+    <dcterms:title xml:lang="en">Traditional IUPAC Name: felypressin from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-7</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-8">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Molecular-Weight" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Molecular Weight: 1040.219 from ChemAxon [drugbank_resource:calculated-properties-DB00093-8]</rdfs:label>
+    <dcterms:title xml:lang="en">Molecular Weight: 1040.219 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-8</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00093-9">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Monoisotopic-Weight" />
+    <rdfs:label xml:lang="en">Monoisotopic Weight: 1039.436791367 from ChemAxon [drugbank_resource:calculated-properties-DB00093-9]</rdfs:label>
+    <dcterms:title xml:lang="en">Monoisotopic Weight: 1039.436791367 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00093-9</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-10">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Molecular-Weight" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Molecular Weight: 247.1419 from ChemAxon [drugbank_resource:calculated-properties-DB00114-10]</rdfs:label>
+    <dcterms:title xml:lang="en">Molecular Weight: 247.1419 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-10</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-11">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Monoisotopic-Weight" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Monoisotopic Weight: 247.024573569 from ChemAxon [drugbank_resource:calculated-properties-DB00114-11]</rdfs:label>
+    <dcterms:title xml:lang="en">Monoisotopic Weight: 247.024573569 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-11</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-12">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:SMILES" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">SMILES: CC1=NC=C(COP(O)(O)=O)C(C=O)=C1O from ChemAxon [drugbank_resource:calculated-properties-DB00114-12]</rdfs:label>
+    <dcterms:title xml:lang="en">SMILES: CC1=NC=C(COP(O)(O)=O)C(C=O)=C1O from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-12</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-13">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Molecular-Formula" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Molecular Formula: C8H10NO6P from ChemAxon [drugbank_resource:calculated-properties-DB00114-13]</rdfs:label>
+    <dcterms:title xml:lang="en">Molecular Formula: C8H10NO6P from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-13</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-14">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:InChI" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">InChI: InChI=1S/C8H10NO6P/c1-5-8(11)7(3-10)6(2-9-5)4-15-16(12,13)14/h2-3,11H,4H2,1H3,(H2,12,13,14) from ChemAxon [drugbank_resource:calculated-properties-DB00114-14]</rdfs:label>
+    <dcterms:title xml:lang="en">InChI: InChI=1S/C8H10NO6P/c1-5-8(11)7(3-10)6(2-9-5)4-15-16(12,13)14/h2-3,11H,4H2,1H3,(H2,12,13,14) from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-14</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-15">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:InChIKey" />
+    <rdfs:label xml:lang="en">InChIKey: InChIKey=NGVDGCNFYWLIFO-UHFFFAOYSA-N from ChemAxon [drugbank_resource:calculated-properties-DB00114-15]</rdfs:label>
+    <dcterms:title xml:lang="en">InChIKey: InChIKey=NGVDGCNFYWLIFO-UHFFFAOYSA-N from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-15</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-16">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Polar-Surface-Area-(PSA)" />
+    <rdfs:label xml:lang="en">Polar Surface Area (PSA): 116.95 from ChemAxon [drugbank_resource:calculated-properties-DB00114-16]</rdfs:label>
+    <dcterms:title xml:lang="en">Polar Surface Area (PSA): 116.95 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-16</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-17">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Refractivity" />
+    <rdfs:label xml:lang="en">Refractivity: 54.75 from ChemAxon [drugbank_resource:calculated-properties-DB00114-17]</rdfs:label>
+    <dcterms:title xml:lang="en">Refractivity: 54.75 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-17</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-18">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Polarizability" />
+    <rdfs:label xml:lang="en">Polarizability: 20.9 from ChemAxon [drugbank_resource:calculated-properties-DB00114-18]</rdfs:label>
+    <dcterms:title xml:lang="en">Polarizability: 20.9 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-18</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-19">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Rotatable-Bond-Count" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Rotatable Bond Count: 4 from ChemAxon [drugbank_resource:calculated-properties-DB00114-19]</rdfs:label>
+    <dcterms:title xml:lang="en">Rotatable Bond Count: 4 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-19</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-20">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:H-Bond-Acceptor-Count" />
+    <rdfs:label xml:lang="en">H Bond Acceptor Count: 6 from ChemAxon [drugbank_resource:calculated-properties-DB00114-20]</rdfs:label>
+    <dcterms:title xml:lang="en">H Bond Acceptor Count: 6 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-20</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-21">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:H-Bond-Donor-Count" />
+    <rdfs:label xml:lang="en">H Bond Donor Count: 3 from ChemAxon [drugbank_resource:calculated-properties-DB00114-21]</rdfs:label>
+    <dcterms:title xml:lang="en">H Bond Donor Count: 3 from ChemAxon</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugbank_resource:calculated-properties-DB00114-21</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-22">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:PKa-(strongest-acidic)" />
+    <rdfs:label xml:lang="en">pKa (strongest acidic): 1.68 from ChemAxon [drugbank_resource:calculated-properties-DB00114-22]</rdfs:label>
+    <dcterms:title xml:lang="en">pKa (strongest acidic): 1.68 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-23">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:PKa-(strongest-basic)" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">pKa (strongest basic): 4.11 from ChemAxon [drugbank_resource:calculated-properties-DB00114-23]</rdfs:label>
+    <dcterms:title xml:lang="en">pKa (strongest basic): 4.11 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-24">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Physiological-Charge" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Physiological Charge: -2 from ChemAxon [drugbank_resource:calculated-properties-DB00114-24]</rdfs:label>
+    <dcterms:title xml:lang="en">Physiological Charge: -2 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-25">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Number-of-Rings" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Number of Rings: 1 from ChemAxon [drugbank_resource:calculated-properties-DB00114-25]</rdfs:label>
+    <dcterms:title xml:lang="en">Number of Rings: 1 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-26">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Bioavailability" />
+    <rdfs:label xml:lang="en">Bioavailability: 1 from ChemAxon [drugbank_resource:calculated-properties-DB00114-26]</rdfs:label>
+    <dcterms:title xml:lang="en">Bioavailability: 1 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-27">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Rule-of-Five" />
+    <rdfs:label xml:lang="en">Rule of Five: 1 from ChemAxon [drugbank_resource:calculated-properties-DB00114-27]</rdfs:label>
+    <dcterms:title xml:lang="en">Rule of Five: 1 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-28">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Ghose-Filter" />
+    <rdfs:label xml:lang="en">Ghose Filter: 0 from ChemAxon [drugbank_resource:calculated-properties-DB00114-28]</rdfs:label>
+    <dcterms:title xml:lang="en">Ghose Filter: 0 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-29">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:MDDR-Like-Rule" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">MDDR-Like Rule: 0 from ChemAxon [drugbank_resource:calculated-properties-DB00114-29]</rdfs:label>
+    <dcterms:title xml:lang="en">MDDR-Like Rule: 0 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-4">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:LogP" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">logP: -0.55 from ALOGPS [drugbank_resource:calculated-properties-DB00114-4]</rdfs:label>
+    <dcterms:title xml:lang="en">logP: -0.55 from ALOGPS</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-5">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:LogS" />
+    <rdfs:label xml:lang="en">logS: -1.6 from ALOGPS [drugbank_resource:calculated-properties-DB00114-5]</rdfs:label>
+    <dcterms:title xml:lang="en">logS: -1.6 from ALOGPS</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-6">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Water-Solubility" />
+    <rdfs:label xml:lang="en">Water Solubility: 5.70e+00 g/l from ALOGPS [drugbank_resource:calculated-properties-DB00114-6]</rdfs:label>
+    <dcterms:title xml:lang="en">Water Solubility: 5.70e+00 g/l from ALOGPS</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-7">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:LogP" />
+    <rdfs:label xml:lang="en">logP: -2.1 from ChemAxon [drugbank_resource:calculated-properties-DB00114-7]</rdfs:label>
+    <dcterms:title xml:lang="en">logP: -2.1 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-8">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:IUPAC-Name" />
+    <rdfs:label xml:lang="en">IUPAC Name: [(4-formyl-5-hydroxy-6-methylpyridin-3-yl)methoxy]phosphonic acid from ChemAxon [drugbank_resource:calculated-properties-DB00114-8]</rdfs:label>
+    <dcterms:title xml:lang="en">IUPAC Name: [(4-formyl-5-hydroxy-6-methylpyridin-3-yl)methoxy]phosphonic acid from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00114-9">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Traditional-IUPAC-Name" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Traditional IUPAC Name: pyridoxal phosphate from ChemAxon [drugbank_resource:calculated-properties-DB00114-9]</rdfs:label>
+    <dcterms:title xml:lang="en">Traditional IUPAC Name: pyridoxal phosphate from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-10">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:SMILES" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">SMILES: OC[C@H]1O[C@@H]([C@H](O)[C@@H]1OP(O)(=O)O[C@]([H])(C)CNC(=O)CC[C@]1(C)[C@@H](CC(=O)N)[C@@]2([H])N([Co]C#N)C1=C(C)/C1=N/C(=CC3=NC(=C(C)/C4=N[C@]2(C)[C@@](C)(CC(=O)N)[C@@H]4CCC(=O)N)[C@@](C)(CC(=O)N)[C@@H]3CCC(=O)N)/C(C)(C)[C@@H]1CCC(=O)N)N1C=NC2=CC(C)=C(C)C=C12 from ChemAxon [drugbank_resource:calculated-properties-DB00115-10]</rdfs:label>
+    <dcterms:title xml:lang="en">SMILES: OC[C@H]1O[C@@H]([C@H](O)[C@@H]1OP(O)(=O)O[C@]([H])(C)CNC(=O)CC[C@]1(C)[C@@H](CC(=O)N)[C@@]2([H])N([Co]C#N)C1=C(C)/C1=N/C(=CC3=NC(=C(C)/C4=N[C@]2(C)[C@@](C)(CC(=O)N)[C@@H]4CCC(=O)N)[C@@](C)(CC(=O)N)[C@@H]3CCC(=O)N)/C(C)(C)[C@@H]1CCC(=O)N)N1C=NC2=CC(C)=C(C)C=C12 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-11">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Molecular-Formula" />
+    <rdfs:label xml:lang="en">Molecular Formula: C63H89CoN14O14P from ChemAxon [drugbank_resource:calculated-properties-DB00115-11]</rdfs:label>
+    <dcterms:title xml:lang="en">Molecular Formula: C63H89CoN14O14P from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-12">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:InChI" />
+    <rdfs:label xml:lang="en">InChI: InChI=1S/C62H90N13O14P.CN.Co/c1-29-20-39-40(21-30(29)2)75(28-70-39)57-52(84)53(41(27-76)87-57)89-90(85,86)88-31(3)26-69-49(83)18-19-59(8)37(22-46(66)80)56-62(11)61(10,25-48(68)82)36(14-17-45(65)79)51(74-62)33(5)55-60(9,24-47(67)81)34(12-15-43(63)77)38(71-55)23-42-58(6,7)35(13-16-44(64)78)50(72-42)32(4)54(59)73-56;1-2;/h20-21,23,28,31,34-37,41,52-53,56-57,76,84H,12-19,22,24-27H2,1-11H3,(H15,63,64,65,66,67,68,69,71,72,73,74,77,78,79,80,81,82,83,85,86);;/q;;+1/p-1/t31-,34-,35-,36-,37+,41-,52-,53-,56-,57+,59-,60+,61+,62+;;/m1../s1 from ChemAxon [drugbank_resource:calculated-properties-DB00115-12]</rdfs:label>
+    <dcterms:title xml:lang="en">InChI: InChI=1S/C62H90N13O14P.CN.Co/c1-29-20-39-40(21-30(29)2)75(28-70-39)57-52(84)53(41(27-76)87-57)89-90(85,86)88-31(3)26-69-49(83)18-19-59(8)37(22-46(66)80)56-62(11)61(10,25-48(68)82)36(14-17-45(65)79)51(74-62)33(5)55-60(9,24-47(67)81)34(12-15-43(63)77)38(71-55)23-42-58(6,7)35(13-16-44(64)78)50(72-42)32(4)54(59)73-56;1-2;/h20-21,23,28,31,34-37,41,52-53,56-57,76,84H,12-19,22,24-27H2,1-11H3,(H15,63,64,65,66,67,68,69,71,72,73,74,77,78,79,80,81,82,83,85,86);;/q;;+1/p-1/t31-,34-,35-,36-,37+,41-,52-,53-,56-,57+,59-,60+,61+,62+;;/m1../s1 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-13">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:InChIKey" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">InChIKey: InChIKey=SEKGMJVHSBBHRD-WZHZPDAFSA-M from ChemAxon [drugbank_resource:calculated-properties-DB00115-13]</rdfs:label>
+    <dcterms:title xml:lang="en">InChIKey: InChIKey=SEKGMJVHSBBHRD-WZHZPDAFSA-M from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-14">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:PKa-(strongest-acidic)" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">pKa (strongest acidic): 1.84 from ChemAxon [drugbank_resource:calculated-properties-DB00115-14]</rdfs:label>
+    <dcterms:title xml:lang="en">pKa (strongest acidic): 1.84 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-15">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:PKa-(strongest-basic)" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">pKa (strongest basic): 8.77 from ChemAxon [drugbank_resource:calculated-properties-DB00115-15]</rdfs:label>
+    <dcterms:title xml:lang="en">pKa (strongest basic): 8.77 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-16">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Physiological-Charge" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Physiological Charge: 2 from ChemAxon [drugbank_resource:calculated-properties-DB00115-16]</rdfs:label>
+    <dcterms:title xml:lang="en">Physiological Charge: 2 from ChemAxon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_resource:calculated-properties-DB00115-17">
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Number-of-Rings" />
+    <rdf:type rdf:resource="http://bio2rdf.org/drugbank_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Number of Rings: 8 from ChemAxon [drugbank_resource:calculated-properties-DB00115-17]</rdfs:label>
+    <dcterms:title xml:lang="en">Number of Rings: 8 from ChemAxon</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>
