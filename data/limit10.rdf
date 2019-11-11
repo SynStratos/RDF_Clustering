@@ -1,0 +1,58 @@
+<rdf:RDF xmlns:res="http://www.w3.org/2005/sparql-results#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:nodeID="rset">
+<rdf:type rdf:resource="http://www.w3.org/2005/sparql-results#ResultSet" />
+    <res:resultVariable>s</res:resultVariable>
+    <res:resultVariable>p</res:resultVariable>
+    <res:resultVariable>o</res:resultVariable>
+    <res:solution rdf:nodeID="r0">
+      <res:binding rdf:nodeID="r0c0"><res:variable>s</res:variable><res:value rdf:resource="http://www.openlinksw.com/virtrdf-data-formats#default-iid"/></res:binding>
+      <res:binding rdf:nodeID="r0c1"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r0c2"><res:variable>o</res:variable><res:value rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r1">
+      <res:binding rdf:nodeID="r1c0"><res:variable>s</res:variable><res:value rdf:resource="http://www.openlinksw.com/virtrdf-data-formats#default-iid-nullable"/></res:binding>
+      <res:binding rdf:nodeID="r1c1"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r1c2"><res:variable>o</res:variable><res:value rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r2">
+      <res:binding rdf:nodeID="r2c0"><res:variable>s</res:variable><res:value rdf:resource="http://www.openlinksw.com/virtrdf-data-formats#default-iid-nonblank"/></res:binding>
+      <res:binding rdf:nodeID="r2c1"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r2c2"><res:variable>o</res:variable><res:value rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r3">
+      <res:binding rdf:nodeID="r3c0"><res:variable>s</res:variable><res:value rdf:resource="http://www.openlinksw.com/virtrdf-data-formats#default-iid-nonblank-nullable"/></res:binding>
+      <res:binding rdf:nodeID="r3c1"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r3c2"><res:variable>o</res:variable><res:value rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r4">
+      <res:binding rdf:nodeID="r4c0"><res:variable>s</res:variable><res:value rdf:resource="http://www.openlinksw.com/virtrdf-data-formats#default"/></res:binding>
+      <res:binding rdf:nodeID="r4c1"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r4c2"><res:variable>o</res:variable><res:value rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r5">
+      <res:binding rdf:nodeID="r5c0"><res:variable>s</res:variable><res:value rdf:resource="http://www.openlinksw.com/virtrdf-data-formats#default-nullable"/></res:binding>
+      <res:binding rdf:nodeID="r5c1"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r5c2"><res:variable>o</res:variable><res:value rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r6">
+      <res:binding rdf:nodeID="r6c0"><res:variable>s</res:variable><res:value rdf:resource="http://www.openlinksw.com/virtrdf-data-formats#sql-varchar"/></res:binding>
+      <res:binding rdf:nodeID="r6c1"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r6c2"><res:variable>o</res:variable><res:value rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r7">
+      <res:binding rdf:nodeID="r7c0"><res:variable>s</res:variable><res:value rdf:resource="http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-nullable"/></res:binding>
+      <res:binding rdf:nodeID="r7c1"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r7c2"><res:variable>o</res:variable><res:value rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r8">
+      <res:binding rdf:nodeID="r8c0"><res:variable>s</res:variable><res:value rdf:resource="http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-dt"/></res:binding>
+      <res:binding rdf:nodeID="r8c1"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r8c2"><res:variable>o</res:variable><res:value rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r9">
+      <res:binding rdf:nodeID="r9c0"><res:variable>s</res:variable><res:value rdf:resource="http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-dt-nullable"/></res:binding>
+      <res:binding rdf:nodeID="r9c1"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r9c2"><res:variable>o</res:variable><res:value rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/></res:binding>
+    </res:solution>
+  </rdf:Description>
+</rdf:RDF>
