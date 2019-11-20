@@ -21,7 +21,7 @@ def foo():
     all_drugs = [rdflib.URIRef(x) for x in all_drugs_file['drug']]
 
     # Define relevant predicates
-    predicates = pd.read_csv('data/relevant_predicates.tsv', sep='\t')
+    predicates = pd.read_csv('data/bad_predicates.tsv', sep='\t')
     predicates = [rdflib.URIRef(x) for x in predicates['predicate']]
 
     # Extract graph

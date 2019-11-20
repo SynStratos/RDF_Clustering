@@ -15,12 +15,14 @@ from hashlib import md5
 class Vertex(object):
     vertex_counter = 0
     
-    def __init__(self, name, predicate=False, _from=None, _to=None, wildcard=False):
+    def __init__(self, name, predicate=False, _from=None, _to=None, wildcard=False, blank=False, parent_vertex=None):
         self.name = name
         self.predicate = predicate
         self._from = _from
         self._to = _to
         self.wildcard = wildcard
+        self.blank = blank
+        self.parent_vertex = parent_vertex
 
         self.id = Vertex.vertex_counter
         Vertex.vertex_counter += 1
@@ -36,6 +38,7 @@ class Vertex(object):
         else:
             return hash(self.name)
 
+
 class KnowledgeGraph(object):
     def __init__(self):
         self.vertices = set()
@@ -44,6 +47,13 @@ class KnowledgeGraph(object):
         self.inv_label_map = {}
         self.name_to_vertex = {}
         self.root = None
+
+    def get_vertex(self, name):
+        for v in self.vertices:
+            if v.name == name:
+                return v
+
+        return None
         
     def add_vertex(self, vertex):
         if vertex.predicate:
@@ -53,6 +63,9 @@ class KnowledgeGraph(object):
             self.vertices.add(vertex)
 
         self.name_to_vertex[vertex.name] = vertex
+
+    def remove_vertex(self, vertex):
+        self.vertices.remove(vertex)
 
     def add_edge(self, v1, v2):
         # Uni-directional edge
@@ -83,7 +96,7 @@ class KnowledgeGraph(object):
                         obj_name = obj.name.split('/')[-1]
                         nx_graph.add_edge(v_name, obj_name, name=pred_name)
         
-        plt.figure(figsize=(10,10))
+        plt.figure(figsize=(20,20))
         _pos = nx.circular_layout(nx_graph)
         nx.draw_networkx_nodes(nx_graph, pos=_pos)
         nx.draw_networkx_edges(nx_graph, pos=_pos)
@@ -149,8 +162,9 @@ class KnowledgeGraph(object):
         # Return a numpy array of these walks
         return np.array(walks)
 
+
 def rdflib_to_kg(rdflib_g, label_predicates=[]):
-    # TODO: Make sure to filter out all tripels where p in label_predicates!
+    # TODO: Make sure to filter out all triples where p in label_predicates!
     # Iterate over triples, add s, p and o to graph and 2 edges (s-->p, p-->o)
     kg = KnowledgeGraph()
     for (s, p, o) in rdflib_g:
@@ -163,6 +177,7 @@ def rdflib_to_kg(rdflib_g, label_predicates=[]):
             kg.add_edge(s_v, p_v)
             kg.add_edge(p_v, o_v)
     return kg
+
 
 def extract_instance(kg, instance, depth=8):
     subgraph = KnowledgeGraph()

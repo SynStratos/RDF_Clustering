@@ -71,7 +71,6 @@ class RDF2VecTransformer():
                 myfile.write(s)
                 myfile.write('\n\n')
 
-
     def _extract_random_walks(self, graph, label_predicates=[]):
         walks = graph.extract_random_walks(self.max_path_depth*2, max_walks=self.walks_per_graph)
 
@@ -84,7 +83,6 @@ class RDF2VecTransformer():
             canonical_walks.add(tuple(canonical_walk))
 
         return list(canonical_walks)
-
 
     def _extract_wl_walks(self, graph, verbose=False, label_predicates=[]):
         """Weisfeiler-Lehman relabeling algorithm, used to calculate the
@@ -137,8 +135,6 @@ class RDF2VecTransformer():
                                         size=min(len(canonical_walks), self.walks_per_graph))
             return np.array(canonical_walks)[walks_ix]
 
-        
-
     def fit(self, graphs, label_predicates=[]):
         """ Fit the embedding network based on provided graphs and labels
         
@@ -164,7 +160,6 @@ class RDF2VecTransformer():
                               workers=self.n_jobs, sg=self.sg, 
                               iter=self.max_iter, negative=self.negative, 
                               min_count=self.min_count)
-
 
     def transform(self, graphs):
         """ Construct a feature vector for each graph
