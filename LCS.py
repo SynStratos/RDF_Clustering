@@ -1,5 +1,8 @@
 from graph import Vertex, KnowledgeGraph
 from time import time
+from hashlib import md5
+
+m = md5()
 
 
 def new_lcs(node1, node2, graph1, graph2, depth):
@@ -28,25 +31,22 @@ def new_lcs(node1, node2, graph1, graph2, depth):
     x_Tx = KnowledgeGraph()
 
     if node1 != node2:
-        blank_n = "/:x_%s" % str(time())
+        blank_n = "/:x_%s" % str(md5(str(time()).encode()).hexdigest())
         start_vertex = Vertex(name=blank_n, predicate=False, blank=True)
     else:
         start_vertex = Vertex(name=node1)
 
     x_Tx.add_vertex(start_vertex)
-    v1 = graph1.get_vertex(node1)
-    v2 = graph2.get_vertex(node2)
+    v1 = graph1.root
+    v2 = graph2.root
 
     childs1 = graph1.get_neighbors(v1)
     childs2 = graph2.get_neighbors(v2)
-    childs1_x = []
-    childs2_x = []
+    
     for c in childs1:
         c.parent_vertex = start_vertex
-        childs1_x.append(c)
     for c in childs2:
         c.parent_vertex = start_vertex
-        childs2_x.append(c)
 
     # viene moltiplicata per 2 la profondità perchè non più corrispondente ad una coppia p-o ma ad ogni singolo layer
     walk(x_Tx, childs1, childs2, graph1, graph2, depth=(depth*2))
@@ -101,7 +101,7 @@ def walk(new_graph, childs_1, childs_2, graph1, graph2, depth):
             else:
                 remove_edge = loop_over_parents(n_v, c1)
         else:
-            blank_n = "/:r_%s" % str(time())  # TODO HASH FUNCTION
+            blank_n = "/:r_%s" % str(md5(str(time()).encode()).hexdigest())
             n_v = Vertex(name=blank_n, predicate=c1.predicate, blank=True)
             new_graph.add_vertex(n_v)
 
@@ -117,7 +117,7 @@ def walk(new_graph, childs_1, childs_2, graph1, graph2, depth):
             n_v = new_graph.get_vertex(c2.name)
             remove_edge = loop_over_parents(n_v, c2)
         else:
-            blank_n = "/:r_%s" % str(time())
+            blank_n = "/:r_%s" % str(md5(str(time()).encode()).hexdigest())
             n_v = Vertex(name=blank_n, predicate=c2.predicate, blank=True)
             new_graph.add_vertex(n_v)
 

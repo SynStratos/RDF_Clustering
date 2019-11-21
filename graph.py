@@ -7,8 +7,6 @@ from collections import defaultdict, Counter
 from functools import lru_cache
 
 import os
-
-# The idea of using a hashing function is taken from https://github.com/benedekrozemberczki/graph2vec
 from hashlib import md5
 
 
@@ -21,8 +19,8 @@ class Vertex(object):
         self._from = _from
         self._to = _to
         self.wildcard = wildcard
-        self.blank = blank
-        self.parent_vertex = parent_vertex
+        self.blank = blank  # added by me
+        self.parent_vertex = parent_vertex  # added by me
 
         self.id = Vertex.vertex_counter
         Vertex.vertex_counter += 1
@@ -48,6 +46,7 @@ class KnowledgeGraph(object):
         self.name_to_vertex = {}
         self.root = None
 
+    # added by me
     def get_vertex(self, name):
         for v in self.vertices:
             if v.name == name:
@@ -64,6 +63,7 @@ class KnowledgeGraph(object):
 
         self.name_to_vertex[vertex.name] = vertex
 
+    # added by me
     def remove_vertex(self, vertex):
         self.vertices.remove(vertex)
 
