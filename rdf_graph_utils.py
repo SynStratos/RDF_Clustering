@@ -12,6 +12,7 @@ def rdf_to_plot(graph):
         s_n = s.split('/')[-1]
         p_n = p.split('/')[-1]
         o_n = o.split('/')[-1]
+
         nx_graph.add_node(s_n, name=s_n, pred=False)
         nx_graph.add_node(o_n, name=o_n, pred=False)
         nx_graph.add_edge(s_n, o_n, name=p_n)

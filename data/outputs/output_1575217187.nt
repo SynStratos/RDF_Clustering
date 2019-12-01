@@ -1,0 +1,141 @@
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB01021> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> <http://bio2rdf.org/hgnc:H2637> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00999> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00582> .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Organic" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:absorption> <http://bio2rdf.org/drugbank_resource:ee60d3134c7dd0c0d243ecee5e71aec2> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:gene-name> "KCNK2" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00539> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00524> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00440> .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00976> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:half-life> <http://bio2rdf.org/drugbank_resource:4e3e5b1bf19647df12b98dc5b3c3342a> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:ff3e9d69979ce58e11337bce2bb87a5e> .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Phenols and Derivatives" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "81-105\n158-179" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:type> <http://bio2rdf.org/drugbank_vocabulary:Small-molecule> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00864> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:general-function> "Inorganic ion transport and metabolism" .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Substructures> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> <http://bio2rdf.org/genatlas:KCNK2> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "2-22" .
+<http://bio2rdf.org/drugbank:BE0001131> <http://bio2rdf.org/drugbank_vocabulary:x-gi> <http://bio2rdf.org/gi:487738> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> <http://bio2rdf.org/hgnc:H6277> .
+<http://bio2rdf.org/drugbank:BE0001131> <http://bio2rdf.org/drugbank_vocabulary:x-gi> <http://bio2rdf.org/gi:5712621> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:03edf82b382d078e3c74ceb479e90f45> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00679> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:locus> "7q35-q36" .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:locus> "1q41" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:id> "BE0000090" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:target> <http://bio2rdf.org/drugbank:BE0001131> .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Aromatic compounds" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:id> "BE0001131" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:target> <http://bio2rdf.org/drugbank:BE0000090> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:general-function> "Voltage-gated signal transduction" .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Ethers" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00808> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:locus> "7q21.1" .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Phenethylamines" .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Affected-organism> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:e8b09de70d915ae98045bf90554d88f6> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00933> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB01211> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:id> "BE0000210" .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Enzyme> .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Sulfonamides" .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Anilines" .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Resource> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00199_DB00204> .
+<http://bio2rdf.org/drugbank:BE0001131> <http://bio2rdf.org/drugbank_vocabulary:x-genecards> <http://bio2rdf.org/genecards:KCNH2> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:9b31baf7c58cf0edb474478a016d3fd6> .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Kingdom> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> "47017.0" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:2487160cf4e49c90b5d96037db8cef79> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:general-function> "Involved in inward rectifier potassium channel activity" .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Anisoles" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> "8.25" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "404-424\n451-471\n496-516\n521-541\n548-568\n639-659" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB01167> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "62-82\n172-192\n224-244\n288-308" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:general-function> "Involved in monooxygenase activity" .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Sulfonyls" .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Drug> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:gene-name> "KCNJ12" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:target> <http://bio2rdf.org/drugbank:BE0000210> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:experimental-properties> <http://bio2rdf.org/drugbank_resource:experimental-properties-DB00204-1> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:cellular-location> "Membrane; multi-pass membrane protein" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:6de47bc365a2e7d7e757deb06c719976> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:biotransformation> <http://bio2rdf.org/drugbank_resource:f9b7546f2920fff9653e7977f83a8653> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB01624> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB01623> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:cec2859c29c92e1b4e2132a2ebb13476> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action> <http://bio2rdf.org/drugbank_resource:f148346ef08490ac52c6bee1f13dcf5a> .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:LogP> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:affected-organism> <http://bio2rdf.org/drugbank_vocabulary:Humans-and-other-mammals> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> <http://bio2rdf.org/genatlas:KCNJ12> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:pharmacology> <http://bio2rdf.org/drugbank_resource:4fec7ab4cb8ae61ee4a592473ae7bacf> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00501> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB01026> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> "5.79" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:name> "ATP-sensitive inward rectifier potassium channel 12" .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Half-life> .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Pharmacology> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:specific-function> "Pore-forming (alpha) subunit of voltage-gated inwardly rectifying potassium channel. Channel properties are modulated by cAMP and subunit assembly. Mediates the rapidly activating component of the delayed rectifying potassium current in heart (IKr). Isoform 3 has no channel activity by itself, but modulates channel characteristics when associated with isoform 1" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:kingdom> <http://bio2rdf.org/drugbank_resource:7b291551dc64b95a2c0e172d009384fc> .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Drug-Drug-Interaction> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> "126656.0" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB08920> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:name> "Potassium voltage-gated channel subfamily H member 2" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB02546> .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Biotransformation> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00436> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:gene-name> "CYP3A4" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> "57344.0" .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:id> "BE0002638" .
+<http://bio2rdf.org/drugbank:BE0001131> <http://bio2rdf.org/drugbank_vocabulary:x-gi> <http://bio2rdf.org/gi:567019> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:2374efd411ef364745612ad43e93d111> .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Phenyl Esters" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:name> "Cytochrome P450 3A4" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:specific-function> "Outward rectifying potassium channel" .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Target> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00243> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:locus> "17p11.1" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:cellular-location> "Endoplasmic reticulum" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:specific-function> "Cytochromes P450 are a group of heme-thiolate monooxygenases. In liver microsomes, this enzyme is involved in an NADPH-dependent electron transport pathway. It performs a variety of oxidation reactions (e.g. caffeine 8-oxidation, omeprazole sulphoxidation, midazolam 1'-hydroxylation and midazolam 4- hydroxylation) of structurally unrelated compounds, including steroids, fatty acids, and xenobiotics. The enzyme also hydroxylates etoposide" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB08868> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> <http://bio2rdf.org/genatlas:CYP3A4> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> "7.97" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> <http://bio2rdf.org/hgnc:H6258> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB08919> .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Aliphatic and Aryl Amines" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> <http://bio2rdf.org/genatlas:KCNH2> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00246> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB06697> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> "49002.0" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00726> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:14d98431cef4c2ec3754754bfb9cec09> .
+<http://bio2rdf.org/drugbank:BE0001131> <http://bio2rdf.org/drugbank_vocabulary:x-genecards> <http://bio2rdf.org/genecards:KCNJ12> .
+<http://bio2rdf.org/drugbank_resource:af24ea89daa8644a00f026b3061798e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Benzene and Derivatives" .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:specific-function> "Probably participates in establishing action potential waveform and excitability of neuronal and muscle tissues. Inward rectifier potassium channels are characterized by a greater tendency to allow potassium to flow into the cell rather than out of it. Their voltage dependence is regulated by the concentration of extracellular potassium; as external potassium is raised, the voltage range of the channel opening shifts to more positive voltages. The inward rectification is mainly due to the blockage of outward current by internal magnesium. Can be blocked by extracellular barium and cesium" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:substructure> <http://bio2rdf.org/drugbank_resource:83d1eaa69fcfbfff5cca9a013ccc0e98> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> "8.88" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:protein-binding> <http://bio2rdf.org/drugbank_resource:389ec5d901491ac96095383b46014c5d> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00661> .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Protein-binding> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:organism> "Human" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB01369> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> <http://bio2rdf.org/hgnc:H6251> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:name> "Potassium channel subfamily K member 2" .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00310> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> <http://bio2rdf.org/drugbank_resource:DB00204_DB00880> .
+<http://bio2rdf.org/drugbank:DB00204> <http://bio2rdf.org/drugbank_vocabulary:enzyme> <http://bio2rdf.org/drugbank:BE0002638> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:gene-name> "KCNH2" .
+<http://bio2rdf.org/drugbank_resource:experimental-properties-DB00204-1> <http://bio2rdf.org/drugbank_vocabulary:value> "2.1" .
+<http://bio2rdf.org/drugbank:BE0001131> <http://bio2rdf.org/drugbank_vocabulary:x-genecards> <http://bio2rdf.org/genecards:KCNK2> .
+<http://bio2rdf.org/drugbank:BE0002638> <http://bio2rdf.org/drugbank_vocabulary:cellular-location> "Membrane; multi-pass membrane protein (Potential)" .
+<http://bio2rdf.org/drugbank:DB00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Absorption> .
+

@@ -100,7 +100,7 @@ class KnowledgeGraph(object):
                         obj_name = obj.name.split('/')[-1]
                         nx_graph.add_edge(v_name, obj_name, name=pred_name)
         
-        plt.figure(figsize=(20, 20))
+        plt.figure(figsize=(100, 100))
         _pos = nx.spring_layout(nx_graph)
         nx.draw_networkx_nodes(nx_graph, pos=_pos)
         nx.draw_networkx_edges(nx_graph, pos=_pos)

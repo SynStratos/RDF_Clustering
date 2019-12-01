@@ -1,0 +1,89 @@
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Affected-organism> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Half-life> .
+"_:r_2220c604fce6490d3d2614121497b90d" <http://bio2rdf.org/drugbank_vocabulary:general-function> "Involved in monooxygenase activity" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:id> "BE0000647" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action> "_:r_6b63742b3fa91da007cacedffcfeb745" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> <http://bio2rdf.org/genatlas:CYP2D6> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:cellular-location> "_:r_fb7e7c07d4432d07a3193096f48cd067" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> <http://bio2rdf.org/hgnc:H11049> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "_:r_2e3aa8c6b93c1df513746472f1171d9c" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> <http://bio2rdf.org/hgnc:H2625> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:target> "_:r_54614fc6a24cc6d37bf53fd0f232bbc7" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:organism> "Human" .
+"_:r_b787fb0bd3bd3790e54415cc5630e519" <http://bio2rdf.org/drugbank_vocabulary:source> "_:r_a4b2b31a830179b4eae95afb5c216085" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> "68496.0" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "_:r_e58f367ffb541838d2d5d923752c199a" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:cellular-location> "Membrane; multi-pass membrane protein" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:LogP> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Drug> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:specific-function> "_:r_65acc6b6fe3815d3deac063a761e7d69" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> "_:r_401391000ceceea90c3fe08a3fce9c34" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-genecards> <http://bio2rdf.org/genecards:CYP2D6> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:name> "Sodium-dependent dopamine transporter" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Drug-Drug-Interaction> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:specific-function> "Responsible for the metabolism of many drugs and environmental chemicals that it oxidizes. It is involved in the metabolism of drugs such as antiarrhythmics, adrenoceptor antagonists, and tricyclic antidepressants" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:target> "_:r_6fdf91331dd05ad090935324c381ac89" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> <http://bio2rdf.org/genatlas:SLC6A3> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:type> <http://bio2rdf.org/drugbank_vocabulary:Small-molecule> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:gene-name> "CYP2D6" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:gene-name> "SLC6A3" .
+"_:r_2220c604fce6490d3d2614121497b90d" <http://bio2rdf.org/drugbank_vocabulary:general-function> "Involved in dopamine:sodium symporter activity" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Toxicity> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:protein-binding> "_:r_14da96a7808cba53498b596fed2a09bb" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:cellular-location> "Endoplasmic reticulum" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:x-dpd> "_:r_37454b2aeae281868d2b8420f0adf7fa" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Enzyme> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-genecards> <http://bio2rdf.org/genecards:SLC6A3> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:name> "_:r_eb241aedf409518286f5e388cc16e7b7" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:name> "Cytochrome P450 2D6" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> "7.26" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:experimental-properties> "_:r_b787fb0bd3bd3790e54415cc5630e519" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/dpd_vocabulary:Resource> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> "_:r_82db641a0d730fed1439bd76f3360562" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-genecards> "_:r_b0ea71cfc1f81534853d22908d9fcd57" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Target> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "None" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:specific-function> "Amine transporter. Terminates the action of dopamine by its high affinity sodium-dependent reuptake into presynaptic terminals" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:enzyme> <http://bio2rdf.org/drugbank:BE0002363> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Biotransformation> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Resource> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:pharmacology> "_:r_1c1238bda962d91a3d0fc1600f6aab9c" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:locus> "5p15.3" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-hgnc> "_:r_8125025005804d09f090fc3d3bcde710" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> "6.92" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Protein-binding> .
+"_:r_b787fb0bd3bd3790e54415cc5630e519" <http://bio2rdf.org/drugbank_vocabulary:source> <http://bio2rdf.org/drugbank_resource:ddf5a51fa9035bb42a9135c6e2f5539d> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-gi> <http://bio2rdf.org/gi:181350> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:gene-name> "_:r_1f3a818db98a285683120aca53d7c04e" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Pharmacology> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:id> "BE0002363" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:id> "_:r_9f5340a681050291cedf65cc08315912" .
+"_:r_2220c604fce6490d3d2614121497b90d" <http://bio2rdf.org/drugbank_vocabulary:general-function> "_:r_30c30c2659eb06355c74b4a3d51f8546" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:locus> "_:r_73c36b3cb2090d5dc99b8e2bfc58a83c" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Mixture> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:biotransformation> "_:r_d13be0af25ee4fdb704f4b5740e80b45" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:half-life> "_:r_f899077903eac201c8f5e448505b6a6a" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:absorption> "_:r_4e5df36de726dff940c8d68a0cc64c2c" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> "_:r_62d2c89860f8815bf6830dd0877750e7" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Water-Solubility> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:target> "_:r_2220c604fce6490d3d2614121497b90d" .
+"_:r_b787fb0bd3bd3790e54415cc5630e519" <http://bio2rdf.org/drugbank_vocabulary:value> "_:r_2a82ef46f4bfae65eb0736d938268d78" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:experimental-properties> "_:r_4ade23a7112d03cbc69df9a7a4898afd" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:locus> "22q13.1" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-gi> <http://bio2rdf.org/gi:553260> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Melting-Point> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:enzyme> "_:r_3ee6e0a9ed671551d12eb908e2eb03e6" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:toxicity> "_:r_27bea74d3d304184d804f2df92954afd" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Absorption> .
+"_:r_2220c604fce6490d3d2614121497b90d" <http://bio2rdf.org/drugbank_vocabulary:general-function> "Secondary metabolites biosynthesis, transport and catabolism" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-genatlas> "_:r_a78bb08df59252813fad6f3b25474e00" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:affected-organism> <http://bio2rdf.org/drugbank_vocabulary:Humans-and-other-mammals> .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:target> <http://bio2rdf.org/drugbank:BE0000647> .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "69-89\n96-116\n140-160\n238-256\n265-282\n318-335\n347-368\n401-420\n447-465\n481-501\n522-541\n560-578" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> "55770.0" .
+"_:x_ba72538836585ee261a3a01befc4ed19" <http://bio2rdf.org/drugbank_vocabulary:mixture> "_:r_25c01ac678a6f2afc73b334eb4253755" .
+"_:r_54614fc6a24cc6d37bf53fd0f232bbc7" <http://bio2rdf.org/drugbank_vocabulary:x-gi> "_:r_eac850e7905f4021046604dc3026b2ec" .
+

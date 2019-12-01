@@ -1,0 +1,59 @@
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-process> "metabolism" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-function> "peptidase activity" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-process> "protein metabolism" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-process> "cellular protein metabolism" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:9ccedb4370ebc3ae188d7344ccbf9a87> .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:b9770c6ac5e8981a362a502f68af5011> .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:777783f1aa2a1942de1c8b131f0b61e8> .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:0b1a5bd2ca5c9c79173df9c24f36e3c9> .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-function> "zinc ion binding" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:amino-acid-sequence> "_:r_895bd7ff82d1ba58246410c83348bfd5" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-component> "_:r_1b3b91bac2628de32535e5e556e4a456" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-process> "physiological process" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-function> "hydrolase activity" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions> "None" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-function> "endopeptidase activity" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:e0783716ac65b1e931488d76b4d988fd> .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-process> "_:r_5d56c93a6b5b76d55f213cfd78eeb824" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-process> "macromolecule metabolism" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Drug> .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-function> "metallopeptidase activity" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:7c5ceb3a6b8700c450d538bc6fc4b81c> .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:baeb7f4259b488a7db36ae3d93fc92e0> .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-function> "ion binding" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:x-pfam> "_:r_aa5252f35e8fc1ed015c499cba49d476" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:general-function> "_:r_a50c01cf3076b6cf6074b0a0ea75580b" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-function> "transition metal ion binding" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:gene-name> "_:r_75dd8f7e2c437eebcfe9fef788d030d0" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:4fdcc55bd40eb6a3b1992f9bdf12b010> .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-function> "catalytic activity" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:target> "_:r_ffa9d5ea7d7327871049f6b4ab48d0d7" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:x-genecards> "_:r_eb488407cd462ba2870f77f913550c56" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Resource> .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:fd995433de39b531b3b715234cc0c3bc> .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-function> "binding" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:organism> "_:r_074983ecd40d8f36c29d95aa0134c85a" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:cellular-location> "_:r_c96cacb104dc064e03c0ef27310ee2c5" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:x-taxonomy> "_:r_4fc999f7e584ade8474127a94bd17be7" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:molecular-weight> "_:r_14b11fcbbb9c84e1b1496616ac527c01" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:specific-function> "_:r_afc112afa7cc9aabe91f5bdba23e89be" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-function> "metalloendopeptidase activity" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Target> .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-process> "proteolysis" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:go-function> "cation binding" .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:x-gi> "_:r_2f71b3879bcc901c229b3ea3d1c34fd9" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:5047c8731c550eb49f3210e0a8dfb94a> .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:22f72a952683d19d554d47d3919c10f3> .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:name> "_:r_7467f3cb1b442e222d047057f6459ba8" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Small-molecule> .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/drugbank_vocabulary:Drug-Classification-Category> .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:gene-sequence> "_:r_f26e85bdbf6d837e3dc52d557c6fb1bf" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:target> "_:r_17d41bd6444c9a67fbf70eb76b4df167" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> "_:r_a7a8b94af7cc84469ee5e30e5f870efe" .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:294d7dbe5d1422fdd7930dca71505279> .
+"_:x_4ac89e895be60f57781d739a48cd9b94" <http://bio2rdf.org/drugbank_vocabulary:drug-classification-category> <http://bio2rdf.org/drugbank_resource:7ef1bc87c6201bd9b70c3b6c32852b9b> .
+"_:r_17d41bd6444c9a67fbf70eb76b4df167" <http://bio2rdf.org/drugbank_vocabulary:theoretical-pi> "_:r_b952b44e64e3e640bcef38062e942f6a" .
+<http://bio2rdf.org/drugbank_vocabulary:Resource> <http://semanticscience.org/resource/is-member-of> <http://bio2rdf.org/lsr:drugbank> .
+

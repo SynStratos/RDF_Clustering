@@ -2,3 +2,6 @@
 __pycache__
 *.pyc
 .ipynb_checkpoints
+to_nt.py
+clustering.py
+data/drugbank_nt.nt
