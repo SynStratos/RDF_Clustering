@@ -22,10 +22,14 @@ def new_lcs(graph1, graph2, depth, stop_patterns=[], uninformative_triples=[]):
     risultante ogni vertice comune o i blank nodes.
 
     al termine della ricerca, viene lanciata la funzione 'clean_blank_branch', che rimuove dal grafo ogni ramo costituito
-    interamente da blank nodes, in quanto non danno alcuna informazione utile alla costruzione del LCS.
+    interamente da blank nodes, o da uninformative triples, in quanto non danno alcuna informazione utile alla costruzione del LCS.
 
-    :param uninformative_triples:
-    :param stop_predicates:
+    per la rimozione degli stop patterns, viene convertito nuovamente il grafo in rdflib.graph in modo da poter applicare
+    facilmente una query sparql. vengono quindi selezionati tutti i risultati andando ad applicare nel campo filter tutte
+    le condizioni passate come parametro nella list 'stop_patterns'.
+
+    :param uninformative_triples: set di predicati da analizzare nelle uninformative triples (con oggetto blank)
+    :param stop_patterns: set di condizioni relative a triple da rimuovere nell'output del lcs
     :param node1: starting node del primo grafo
     :param node2: starting node del secondo grafo
     :param graph1: primo grafo
