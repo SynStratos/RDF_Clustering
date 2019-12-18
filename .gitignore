@@ -6,3 +6,7 @@ __pycache__
 to_nt.py
 clustering.py
 data/drugbank_nt.nt
+data/drugbank*
+data/full_drugbank.xml
+data/new_limit_500k.nt
+data/outputs

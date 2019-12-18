@@ -62,6 +62,7 @@ def new_lcs(graph1, graph2, depth, stop_patterns=[], uninformative_triples=[]):
 
     # viene moltiplicata per 2 la profondità perchè non più corrispondente ad una coppia p-o ma ad ogni singolo layer
     x_Tx.walk(childs1, childs2, graph1, graph2, depth=(depth*2))
+
     # vengono rimossi tutti i branch contenenti solo nodi blank o uninformative triples
     x_Tx.clean_blank_branch(start_vertex, uninformative_triples)
 
