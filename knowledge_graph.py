@@ -180,7 +180,6 @@ class KnowledgeGraph(object):
         self.remove_edge(parent, node)
         self.remove_vertex(node)
 
-
     # print knowledge graph as n-triples file
     def print_triples_to_nt(self, path):
         """

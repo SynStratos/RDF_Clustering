@@ -36,3 +36,21 @@ def rdf_to_text(graph, path, format):
     print(strings)
     with open(path, 'wb+') as f:
         f.write(strings)
+
+
+# estrae root node dal graph rdflib
+def root_node(graph):
+    ss = set()
+    oo = set()
+    for (s, p, o) in graph:
+        ss.add(s)
+        oo.add(p)
+        oo.add(o)
+
+    ss = ss.difference(oo)
+    if len(ss) == 0:
+        raise Exception("Error: no root node found.")
+    elif len(ss) == 1:
+        return ss.pop()
+    else:
+        raise Exception("Error: multiple root nodes found.")

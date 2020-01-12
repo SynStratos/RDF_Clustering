@@ -10,3 +10,7 @@ data/drugbank*
 data/full_drugbank.xml
 data/new_limit_500k.nt
 data/outputs
+lcs_rdf_graph_2.py
+main_nb_2.ipynb
+LCS.py
+lcs_graph.py
