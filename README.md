@@ -103,5 +103,3 @@ Le due drug sono state collocate dall'algoritmo nel medesimo cluster, ottenendo 
 ### Esempio di rappresentazione grafica 3D dei cluster dopo applicazione di PCA.
 ![3dClustering](images/3dcluster.png)
 
-### Esempio di rappresentazione grafica 2D del grafo risultante dall'algoritmo LCS applicato a due grafi di risorse appartenenti allo stesso cluster.
-![lcsGraph](images/lcs_example.jpg)
