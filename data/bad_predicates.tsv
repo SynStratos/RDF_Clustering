@@ -44,3 +44,5 @@
 "http://bio2rdf.org/drugbank_vocabulary:x-pubchemsubstance"
 "http://bio2rdf.org/drugbank_vocabulary:x-uniprot"
 "http://bio2rdf.org/drugbank_vocabulary:calculated-properties"
+"http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in"
+"http://bio2rdf.org/drugbank_vocabulary:experimental-properties"

@@ -29,20 +29,22 @@ Il grafo risultante dall'algoritmo LCS viene salvato in formato 'nt'.
 
 
 ### Algoritmo LCS
-Tramite il metodo **"new_lcs"** contenuto in **LCS.py**, viene avviata la costruzione del grafo risultante dal LCS.
-Vengono dati in input gli starting node dei due grafi di partenza, i due grafi e la profondità massima richiesta nella ricerca dei CS.
-Viene creato un nuovo oggetto di tipo KnowledgeGraph, a cui andremo ad aggiungere di volta in volta tutti i vertici in comune e i nodi blank.
-Una volta creato e aggiunto il nodo di partenza (blank se diversi), viene avviato il metodo ricorsivo 'walk'.
-Questo andrà a ricercare tutti i neighbors (in modo alternato saranno predicati e oggetti) per aggiungere al grafo risultante ogni vertice comune o i blank nodes.
-
-
-Al termine della ricerca, viene lanciata la funzione **"clean_blank_branch"**, che rimuove dal grafo ogni **uninformative triple**, in quanto non danno alcuna informazione utile alla costruzione del LCS.
-Una tripla viene considerata uninformative nel momento in cui l'oggetto della tripla è un nodo blank senza nodi figli, e il predicato è anch'esso un nodo blank o contenuto nella lista di predicati passati come parametro.
-
-
-Per la rimozione degli **stop patterns**, viene convertito nuovamente il grafo in rdflib.graph in modo da poter applicare facilmente una query SPARQL. 
-
-Vengono quindi selezionati tutti i risultati andando ad applicare nel campo FILTER della query tutte le condizioni passate come parametro nella list 'stop_patterns'.
+Il file **lcs_rdf_graph.py** contiene le classi e relativi metodi necessari alla creazione del grafo LCS. Un grafo LCS sarà un oggetto di tipo **rdflib.Graph** esteso al fine di contenere metodi propri dell'analisi del Least Common Subsumer.
+I parametri necessari nel momento in cui si istanzia l'oggetto di tipo LCS sono i due grafi di partenza da analizzare, la profondità massima da raggiungere, una lista di **stop patterns** e una lista di **uninformative triple**.
+I grafi passati come argomento possono essere sia in formato rdflib.Graph che in formato knowledge_graph, in quanto è prevista la gestione e la relativa conversione di quest'ultimo formato, differente da quello nativo.
+La classe contiente sostanzialmente 3 metodi principali:
+1. **find()**: funzione che avvia l'esplorazione dei grafi e il riempimento del grafo LCS.
+2. **explore()**: funzione più importante, contenente il vero e proprio metodo di costruzione del grafo LCS. 
+        Questo metodo è strutturato al fine di rendere la ricerca più leggera possibile dal punto di vista computazionale, evitando controlli già effettuati o non congruenti con il concetto di LCS.
+        A questo fine viene tenuta in memoria una lista contenente per ogni coppia di risorse analizzate l'eventuale risorsa risultante ed il grafo ad essa poi associato.
+        Viene gestita la creazione di nuovi nodi blank nel momento in cui le risorse analizzate siano diverse.
+        Fino al raggiungimento della profondità massima predefinita, la funzione viene poi lanciata in modo ricorsivo per i nodi child delle due risorse analizzate al momento.
+        Viene costantemente controllato una risorsa "blank" abbia o meno nodi child e che la tripla non sia di tipo "uninformative", in modo da non dover scorrere nuovamente il grafo al termine della prima ricerca per eliminare queste risorse irrilevanti dal LCS risultante.
+3. **compute_sigma()**: funzione che esegue una query SPARQL sul dataset fornito e con una data profondità, al fine di estrapolare il grafo relativo alla risorsa data.
+    
+Altri due metodi ausiliari sono inoltre:
+1. **make_filter_block()**: utile per la costruzione del blocco filter della query lanciata in compute_sigma, tenendo conto degli stopping pattern.
+2. **blank_node()**: utile per la generazione di un nuovo nodo rdflib di tipo Literal per i nodi blank.
 
 
 ### Algoritmo RDF2Vec

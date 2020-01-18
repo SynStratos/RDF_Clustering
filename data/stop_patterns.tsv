@@ -35,8 +35,6 @@
 "?p != <http://purl.bioontology.org/ontology/SNOMEDCT/active_ingredient_of>"
 "?p != <http://purl.bioontology.org/ontology/SNOMEDCT/dose_form_of>"
 "?p != <http://purl.bioontology.org/ontology/SNOMEDCT/same_as>"
-"?p != <http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in>"
-"?p != <http://bio2rdf.org/drugbank_vocabulary:experimental-properties>"
 "?p != <http://purl.bioontology.org/ontology/SNOMEDCT/inverse_may_be_a>"
 "?p != <http://purl.bioontology.org/ontology/NDFRT/NDFRTKIND> || !isLiteral(?o)"
 "?p != <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  || ?o != <http://www.w3.org/2002/07/owl#Class>"
