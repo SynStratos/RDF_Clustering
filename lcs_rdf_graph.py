@@ -5,7 +5,6 @@ from hashlib import md5
 from rdflib.extras.external_graph_libs import rdflib_to_networkx_multidigraph
 from sortedcontainers import SortedSet, SortedList
 
-from lcs_graph import LCSGraph
 from knowledge_graph import Vertex, KnowledgeGraph, kg_to_rdflib
 from rdf_graph_utils import root_node
 
@@ -23,7 +22,7 @@ class Visited(list):
             self.append((SortedList((a, b)), x, T_x))
 
     def get(self, a, b):
-        ab = SortedList((a,b))
+        ab = SortedList((a, b))
         for (z, x, t_x) in self:
             if z == ab:
                 return x, t_x
@@ -82,6 +81,7 @@ class LCS(rdflib.Graph):
         # verifico che x non sia nullo (in tal caso la coppia è già stata esplorata)
         if x:
             print("coppia di risorse già esplorata")
+            print(str(a), str(b), str(x))
             # se x_T è vuoto la risorsa non ha nodi child e se il prefisso "blank:" è nel nome
             # rispetta le condizioni per essere segnata come blank
             if len(x_T) == 0 and "blank:" in x:
@@ -90,7 +90,10 @@ class LCS(rdflib.Graph):
             # in questo caso la coppia di risorse non è già stata esplorata
             x_T = rdflib.Graph()
             # controllo che le due risorse coincidano o meno
-            if a == b:
+            # print("check")
+            # print(str(a), str(b))
+            if str(a) == str(b):
+                # if a == b:
                 print("le due risorse sono uguali")
                 x = a
             else:
@@ -118,46 +121,43 @@ class LCS(rdflib.Graph):
                         blank_o = False
 
                         for (s_b, p_b, o_b) in self.compute_sigma(b, b_T):
-                            print(s_a, p_a, o_a)
-                            print(s_b, p_b, o_b)
                             y, y_blank, y_uninformative = self.explore(p_a, a_T, p_b, b_T, depth + 1)
                             z, z_blank, _ = self.explore(o_a, a_T, o_b, b_T, depth + 1)
 
                             # verifico che le due risorse risultanti non siano entrambe blank senza child
                             # (o con predicato uninformative)
                             # in quel caso non voglio aggiungerle al grafo risultante
+                            blank = blank and ((y_blank or y_uninformative) and z_blank)
                             if (y_blank or y_uninformative) and z_blank:
-                                blank = blank and True
+                                pass
                             else:
                                 # verifico la presenza della tripla con sole risorse (predicato e oggetto) uguali
                                 if "blank:" not in y and "blank:" not in z:
-                                    print("complete triple", x, y, z)
+                                    # print("complete triple", x, y, z)
                                     complete_triple = (x, y, z)
                                     break
                                 # verifico di aver già aggiunto la tripla con predicato blank senza child
                                 # e medesimo oggetto non blank
                                 elif y_blank and "blank:" not in z:
                                     if not blank_p:
-                                        print("blank pred triple", x, y, z)
                                         blank_p = True
                                         to_add.append((x, y, z))
                                 # verifico di aver già aggiunto la tripla con oggetto blank senza child
                                 # medesimo predicato non blank
                                 elif "blank:" not in y and z_blank:
                                     if not blank_o:
-                                        print("blank ogg triple", x, y, z)
                                         blank_o = True
                                         to_add.append((x, y, z))
                                 # altrimenti il risultato sarà generalmente una tripla con oggetto e/o predicato blank
                                 # ma con nodi child
                                 else:
-                                    print("standard triple", x, y, z)
+                                    # print("standard triple", x, y, z)
                                     to_add.append((x, y, z))
 
                         # infine, se ho individuato la tripla "completa" di predicato e oggetto,
                         # aggiungo solamente quella al grafo risultante
                         if complete_triple:
-                            print("ADDING COMPLETE TRIPLE TO X_T")
+                            # print("ADDING COMPLETE TRIPLE TO X_T")
                             x_T.add(complete_triple)
                         # in caso contrario aggiungo tutte le triple che ho salvato nella lista "to_add"
                         else:
@@ -190,8 +190,11 @@ class LCS(rdflib.Graph):
         # effettuo la query solamente nel momento in cui il soggetto passato come argomento è una risorsa rdf e non un literal
         # nel secondo caso restituisco una lista vuota
         if "http" in node:
-            sigma = graph.query(query)
-
+            sigma_q = graph.query(query)
+            sigma = rdflib.Graph()
+            for triple in sigma_q:
+                # print(triple)
+                sigma.add(triple)
             if depth < max_depth:
                 depth += 1
                 child = []
@@ -202,7 +205,11 @@ class LCS(rdflib.Graph):
                     g_child = self.compute_sigma(c, graph, max_depth, depth)
                     for (s, p, o) in g_child:
                         sigma.add((s, p, o))
-            print("sigma dim: ", len(sigma))
+                        # try:
+                        #     sigma.add((s, p, o))
+                        # except:
+                        #     continue
+            # print("sigma dim: ", len(sigma))
         else:
             print("sigma not resource but literal.")
             sigma = []
@@ -230,4 +237,5 @@ class LCS(rdflib.Graph):
 
 
 def blank_node():
+    # return rdflib.BNode()
     return rdflib.Literal("blank:r_%s" % str(md5(str(time()).encode()).hexdigest()))
